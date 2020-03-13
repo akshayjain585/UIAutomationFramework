@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing reports,configs and excel in TestSuite]]>
+    </line>
+    <line>
+      <![CDATA[Initialization for reports,configs and excel in TestSuite completed]]>
+    </line>
+    <line>
+      <![CDATA[Launching Application in Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Launch of Application done successfully]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot for Passed TC]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot for Passed TC]]>
+    </line>
+    <line>
+      <![CDATA[Closing Application in After Class]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12128" started-at="2020-03-13T12:29:43Z" finished-at="2020-03-13T12:29:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12128" started-at="2020-03-13T12:29:43Z" finished-at="2020-03-13T12:29:55Z">
+      <class name="com.ui.automation.test.LoginTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="setupSuite" is-config="true" duration-ms="484" started-at="2020-03-13T12:29:43Z" finished-at="2020-03-13T12:29:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing reports,configs and excel in TestSuite]]>
+            </line>
+            <line>
+              <![CDATA[Initialization for reports,configs and excel in TestSuite completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="setup" is-config="true" duration-ms="5880" started-at="2020-03-13T12:29:43Z" finished-at="2020-03-13T12:29:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Application in Before Class]]>
+            </line>
+            <line>
+              <![CDATA[Launch of Application done successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="login" duration-ms="1427" started-at="2020-03-13T12:29:49Z" finished-at="2020-03-13T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="afterEachTest" is-config="true" duration-ms="598" started-at="2020-03-13T12:29:50Z" finished-at="2020-03-13T12:29:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:com.ui.automation.test.LoginTest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Taking screenshot for Passed TC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="loginFail()[pri:1, instance:com.ui.automation.test.LoginTest@42e26948]" name="loginFail" duration-ms="42" started-at="2020-03-13T12:29:51Z" finished-at="2020-03-13T12:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="afterEachTest" is-config="true" duration-ms="1413" started-at="2020-03-13T12:29:51Z" finished-at="2020-03-13T12:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginFail status=SUCCESS method=LoginTest.loginFail()[pri:1, instance:com.ui.automation.test.LoginTest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Taking screenshot for Passed TC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ui.automation.test.LoginTest@42e26948]" name="tearDown" is-config="true" duration-ms="2749" started-at="2020-03-13T12:29:53Z" finished-at="2020-03-13T12:29:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Application in After Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ui.automation.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

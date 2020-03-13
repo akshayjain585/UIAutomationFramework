@@ -1,0 +1,7 @@
+com/ui/automation/test/LoginTest.class
+com/ui/automation/utility/BrowserFactory.class
+com/ui/automation/baseClass/BaseClass.class
+com/ui/automation/utility/ConfigDataProvider.class
+com/ui/automation/pages/LoginPage.class
+com/ui/automation/utility/Utils.class
+com/ui/automation/utility/ExcelDataProvider.class
