@@ -4,6 +4,7 @@
  * 2. One way of checking if webelement is available on page or not us by using driver.findElements(By.locator()).size!=0.
  * 3. To run using cmd through maven : mvn install -Dbrowser=Chrome -DqaURL=http://way2automation.com/way2auto_jquery/index.php -DxmlFile=testng.xml 
  * -D is for variables which needs to be given in key value pair. Key is what mentioned in pom.xml file and in @Parametes annotation in base class. Value will be input by the user at the run time.
+ * 4. Currently we are parameterizing only testng.xml file using maven.
  */
 
 package com.ui.automation.test;
